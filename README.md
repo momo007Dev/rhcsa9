@@ -1,30 +1,30 @@
 # RHCSA - Rhel9 - 2023
 
-* File System
+* [File System](/Chapters/File_System.md)
     * The linux file system structure
-* Manipulating Files
+* [Manipulating Files](/Chapters/Manipulating_Files.md)
     * VIM, touch, mkdir, less, head, tail, wc, cp, rm, find
     * awk, sed, diff, cut, grep
     * In/out/err redirection, pipelines, wildcard characters, regex
-* User and Groups
+* [User and Groups](/Chapters/User_Groups.md)
     * Managin users, groups, accounts, password policies
     * Settings defaults settings for password, shell,...
-* Permissions - ACLs
+* [Permissions & ACLs](/Chapters/Permissions_Acl.md)
     * Sudo, Umask, chmod; chgrp, chown, acl, default acls
-* System Information
+* [System Information](/Chapters/System_Information.md)
     * hardware info (ram,cpu), reboot logs, users login logs
     * Kernel
-* Bash & Shell scripts
+* [Bash & Shell scripts](/Chapters/Shell_script.md)
     * Variables, shell scripting, test conditions
 
 TODO
 
-Systemctl & Boot Process
-Process - Daemons - Jobs
-Packages (RPM & DNF)
-Networking
-SSH & Firewalld
-Storage Management
-NFS & AutoFS
-SELinux
-Containers
+* Systemctl & Boot Process
+* Process - Daemons - Jobs
+* Packages (RPM & DNF)
+* Networking
+* SSH & Firewalld
+* Storage Management
+* NFS & AutoFS
+* SELinux
+* Containers
