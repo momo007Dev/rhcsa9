@@ -16,10 +16,12 @@
     * Kernel
 * [Bash & Shell scripts](/Chapters/Shell_script.md)
     * Variables, shell scripting, test conditions
+* [Systemctl & Boot Process](/Chapters/Boot_process.md)
+    * Boot process, grub2, bios, uefi, root password recovery
+    * Units, Targets/run levels,  Systemctl
 
 TODO
 
-* Systemctl & Boot Process
 * Process - Daemons - Jobs
 * Packages (RPM & DNF)
 * Networking

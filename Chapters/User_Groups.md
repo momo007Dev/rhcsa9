@@ -59,21 +59,21 @@
 
 ### Managing Groups
 
-* Groupadd
+* **Groupadd**
   * Options
     * `-g` => Sets GID
     *  `-o` => Same GID as another group
     * `-r` => GID below 1000 (for services groups)
   * Example :
     * `groupadd -g 5000 g1` => Creates a new group "g1" with GID 5000
-* Groupmod
+* **Groupmod**
   * Options
     * `-g` => Change the GID
     * `-n` => Renames the group
   * Examples :
     * `groupmod -n new g1` => Changes the group name of "g1" to "new"
     * `groupmod -g 6000 new` => Changes the GID of "new" group to 6000
-* Groupdel
+* **Groupdel**
   * `groupdel (group_name)`
 * Get group information
   * `groups user1` => Display groups that user1 is a member of

@@ -29,12 +29,19 @@
 
 ### Kernel
 
-`rpm -ivh (kernel.rpm)` => Install new kernel (does not replace current one)
+* `rpm -ivh (kernel.rpm)` => Install new kernel (does not replace current one)
+* `grubby --default-kernel` => Displays the default kernel
+* `uname -a` => Displays the currebt kernel
+* `grubby --set-default="kernel_path"` => Sets the new default kernel
 
-`grubby --default-kernel` => Displays the default kernel
-`uname -a` => Displays the currebt kernel
-`grubby --set-default="kernel_path"` => Sets the new default kernel
-
+* `uname -m` => Reveals the architecture of the system.
+* `uname -r` => 4.18.0-80.el8.x86_64
+  * 4 => Major Version
+  * 18 => Major Review
+  * 0 => Kernel Patch Version
+  * 80 => Red Hat Version
+  * el8 => Enterprise Linux 8
+  * x86_64 => Processor Architecture
 
 ---
 

@@ -47,17 +47,16 @@
 ### Permissions
 
 * `chmod a=rwx -v test` => Gives permissions for ALL users (a=U+G+O) to file test
-
-`chmod ugo +rwx test.txt` => U(User) G(Group) O(Other) | Read Write Execute
-`chmod 777 test.txt` => 7=4(r)+2(w)+1(e)
+* `chmod ugo +rwx test.txt` => U(User) G(Group) O(Other) | Read Write Execute
+* `chmod 777 test.txt` => 7=4(r)+2(w)+1(e)
 
 **Change owner of file/directory**
 
-`chown (new_owner) (file_or_dir)`
+* `chown (new_owner) (file_or_dir)`
 
 **Change Group Owner of file/directory**
 
-`chgrp (group_name) (file_or_dir)`
+* `chgrp (group_name) (file_or_dir)`
 
 ---
 
