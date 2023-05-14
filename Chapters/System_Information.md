@@ -45,6 +45,18 @@
 
 ---
 
+### Tune System Performance
+
+* Tuned is a deamon for system tuning.
+  * Based on selected profil the tuned service automatically adjust system to get the best performance.
+  * `tuned-adm` => Change settings for tuned deamon
+  * `tuned-adm active` => Check which profile is active
+  * `tuned-adm list` => List available profiles
+  * `tuned-adm profile (profile_name)` => Change to desired profile.
+  * `tuned-adm recommend` => Check for tuned recommendation
+
+---
+
 ### User Login Information
 
 * `who`
